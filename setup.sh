@@ -34,6 +34,18 @@ alias mtabs='cd ${REPOS}/mtabs'
 alias inpred='cd ${REPOS}/InPreD_README'
 alias RSAT_MC='cd ${REPOS}/matrix-clustering_stand-alone'
 
+# Command to display the variable names and paths
+alias showrepopaths='_ShowRepoPaths'
+_ShowRepoPaths() {
+    printf "Variable\t\tPath\n"
+    printf "REPOS\t\t%s\n" "$REPOS"
+    printf "webrepo\t\t%s\n" "${REPOS}/jaimicore.github.io"
+    printf "CV\t\t%s\n" "${REPOS}/JCastro_CV"
+    printf "useful\t\t%s\n" "${REPOS}/useful_commands"
+    printf "mtabs\t\t%s\n" "${REPOS}/mtabs"
+    printf "inpred\t\t%s\n" "${REPOS}/InPreD_README"
+    printf "RSAT_MC\t\t%s\n" "${REPOS}/matrix-clustering_stand-alone"
+}
 
 ## ------------------------------ ##
 ## Use Mendeley reference manager ##
