@@ -27,6 +27,7 @@ alias lsd='ls -d */' # List directories only
 DOCUMENTS=/home/jaimicore/Documents
 REPOS=${DOCUMENTS}/Repositories
 
+alias ahus='cd ${DOCUMENTS}/Ahus'
 alias webrepo='cd ${REPOS}/jaimicore.github.io'
 alias CV='cd ${REPOS}/JCastro_CV'
 alias useful='cd ${REPOS}/useful_commands'
@@ -42,9 +43,9 @@ _ShowRepoPaths() {
     printf "webrepo\t\t%s\n" "${REPOS}/jaimicore.github.io"
     printf "CV\t\t%s\n" "${REPOS}/JCastro_CV"
     printf "useful\t\t%s\n" "${REPOS}/useful_commands"
-    printf "mtabs\t\t%s\n" "${REPOS}/mtabs"
-    printf "inpred\t\t%s\n" "${REPOS}/InPreD_README"
+    printf "mtabs\t\t%s\n" "${REPOS}/mtabs"    printf "inpred\t\t%s\n" "${REPOS}/InPreD_README"
     printf "RSAT_MC\t\t%s\n" "${REPOS}/matrix-clustering_stand-alone"
+    printf "ahus\t\t%s\n" "${DOCUMENTS}/ahus"
 }
 
 ## ------------------------------ ##
