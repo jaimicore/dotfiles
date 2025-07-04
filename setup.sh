@@ -32,6 +32,7 @@ alias webrepo='cd ${REPOS}/jaimicore.github.io'
 alias CV='cd ${REPOS}/JCastro_CV'
 alias useful='cd ${REPOS}/useful_commands'
 alias mtabs='cd ${REPOS}/mtabs'
+alias sailormave='cd ${REPOS}/sailormave'
 alias inpred='cd ${REPOS}/InPreD_README'
 alias RSAT_MC='cd ${REPOS}/matrix-clustering_stand-alone'
 
@@ -43,7 +44,9 @@ _ShowRepoPaths() {
     printf "webrepo\t\t%s\n" "${REPOS}/jaimicore.github.io"
     printf "CV\t\t%s\n" "${REPOS}/JCastro_CV"
     printf "useful\t\t%s\n" "${REPOS}/useful_commands"
-    printf "mtabs\t\t%s\n" "${REPOS}/mtabs"    printf "inpred\t\t%s\n" "${REPOS}/InPreD_README"
+    printf "mtabs\t\t%s\n" "${REPOS}/mtabs"
+    printf "inpred\t\t%s\n" "${REPOS}/InPreD_README"
+    printf "sailormave\t\t%s\n" "${REPOS}/sailormave"
     printf "RSAT_MC\t\t%s\n" "${REPOS}/matrix-clustering_stand-alone"
     printf "ahus\t\t%s\n" "${DOCUMENTS}/ahus"
 }
