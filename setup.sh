@@ -34,6 +34,7 @@ alias useful='cd ${REPOS}/useful_commands'
 alias mtabs='cd ${REPOS}/mtabs'
 alias sailormave='cd ${REPOS}/sailormave'
 alias inpred='cd ${REPOS}/InPreD_README'
+alias toolkit='cd ${REPOS}/Ahus_InPreD_toolkit'
 alias RSAT_MC='cd ${REPOS}/matrix-clustering_stand-alone'
 
 # Command to display the variable names and paths
@@ -46,6 +47,7 @@ _ShowRepoPaths() {
     printf "useful\t\t%s\n" "${REPOS}/useful_commands"
     printf "mtabs\t\t%s\n" "${REPOS}/mtabs"
     printf "inpred\t\t%s\n" "${REPOS}/InPreD_README"
+    printf "toolkit\t\t%s\n" "${REPOS}/Ahus_InPreD_toolkit"
     printf "sailormave\t\t%s\n" "${REPOS}/sailormave"
     printf "RSAT_MC\t\t%s\n" "${REPOS}/matrix-clustering_stand-alone"
     printf "ahus\t\t%s\n" "${DOCUMENTS}/ahus"
