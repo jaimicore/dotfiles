@@ -36,6 +36,9 @@ alias sailormave='cd ${REPOS}/sailormave'
 alias inpred='cd ${REPOS}/InPreD_README'
 alias toolkit='cd ${REPOS}/Ahus_InPreD_toolkit'
 alias RSAT_MC='cd ${REPOS}/matrix-clustering_stand-alone'
+alias container_template='cd ${REPOS}/container_template'
+alias dotfiles='cd ${REPOS}/dotfiles'
+
 
 # Command to display the variable names and paths
 alias showrepopaths='_ShowRepoPaths'
@@ -51,6 +54,9 @@ _ShowRepoPaths() {
     printf "sailormave\t\t%s\n" "${REPOS}/sailormave"
     printf "RSAT_MC\t\t%s\n" "${REPOS}/matrix-clustering_stand-alone"
     printf "ahus\t\t%s\n" "${DOCUMENTS}/ahus"
+    printf "dotfiles\t\t%s\n" "${DOCUMENTS}/dotfiles"
+    printf "container_template\t\t%s\n" "${DOCUMENTS}/container_template"
+
 }
 
 ## ------------------------------ ##
