@@ -27,17 +27,16 @@ alias lsd='ls -d */' # List directories only
 DOCUMENTS=/home/jaimicore/Documents
 REPOS=${DOCUMENTS}/Repositories
 
-alias ahus='cd ${DOCUMENTS}/Ahus'
-alias webrepo='cd ${REPOS}/jaimicore.github.io'
-alias CV='cd ${REPOS}/JCastro_CV'
-alias useful='cd ${REPOS}/useful_commands'
 alias mtabs='cd ${REPOS}/mtabs'
-alias sailormave='cd ${REPOS}/sailormave'
+alias CV='cd ${REPOS}/JCastro_CV'
+alias ahus='cd ${DOCUMENTS}/Ahus'
 alias inpred='cd ${REPOS}/InPreD_README'
+alias fusviz='cd ${REPOS}/tsoppi2fusviz'
+alias sailormave='cd ${REPOS}/sailormave'
+alias useful='cd ${REPOS}/useful_commands'
+alias webrepo='cd ${REPOS}/jaimicore.github.io'
 alias toolkit='cd ${REPOS}/Ahus_InPreD_toolkit'
 alias RSAT_MC='cd ${REPOS}/matrix-clustering_stand-alone'
-alias container_template='cd ${REPOS}/container_template'
-alias dotfiles='cd ${REPOS}/dotfiles'
 
 
 # Command to display the variable names and paths
@@ -45,18 +44,16 @@ alias showrepopaths='_ShowRepoPaths'
 _ShowRepoPaths() {
     printf "Variable\t\tPath\n"
     printf "REPOS\t\t%s\n" "$REPOS"
-    printf "webrepo\t\t%s\n" "${REPOS}/jaimicore.github.io"
-    printf "CV\t\t%s\n" "${REPOS}/JCastro_CV"
-    printf "useful\t\t%s\n" "${REPOS}/useful_commands"
     printf "mtabs\t\t%s\n" "${REPOS}/mtabs"
-    printf "inpred\t\t%s\n" "${REPOS}/InPreD_README"
-    printf "toolkit\t\t%s\n" "${REPOS}/Ahus_InPreD_toolkit"
-    printf "sailormave\t\t%s\n" "${REPOS}/sailormave"
-    printf "RSAT_MC\t\t%s\n" "${REPOS}/matrix-clustering_stand-alone"
+    printf "CV\t\t%s\n" "${REPOS}/JCastro_CV"
     printf "ahus\t\t%s\n" "${DOCUMENTS}/ahus"
-    printf "dotfiles\t\t%s\n" "${DOCUMENTS}/dotfiles"
-    printf "container_template\t\t%s\n" "${DOCUMENTS}/container_template"
-
+    printf "inpred\t\t%s\n" "${REPOS}/InPreD_README"
+    printf "sailormave\t\t%s\n" "${REPOS}/sailormave"
+    printf "useful\t\t%s\n" "${REPOS}/useful_commands"
+    printf "tsoppi2fusviz\t\t%s\n" "${REPOS}/tsoppi2fusviz"
+    printf "webrepo\t\t%s\n" "${REPOS}/jaimicore.github.io"
+    printf "toolkit\t\t%s\n" "${REPOS}/Ahus_InPreD_toolkit"
+    printf "RSAT_MC\t\t%s\n" "${REPOS}/matrix-clustering_stand-alone"
 }
 
 ## ------------------------------ ##
