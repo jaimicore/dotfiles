@@ -1,0 +1,58 @@
+# --------------------- #
+# Installed through apt #
+# --------------------- #
+sudo apt install -y curl       \
+    git                        \
+    zsh                        \
+    r-base                     \
+    wget                       \
+    software-properties-common \
+    python3-pip                \
+    libfuse2
+
+# sudo apt install libfuse2
+
+
+
+# --------------------------- #
+# Installed through a command #
+# --------------------------- #
+
+# Brave (browser)
+curl -fsS https://dl.brave.com/install.sh | sh
+
+# oh-my-zsh
+# Requires zsh to be installed
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Apptainer
+sudo add-apt-repository -y ppa:apptainer/ppa
+sudo apt update
+sudo apt install -y apptainer
+
+
+# --------------- #
+# python packages #
+# --------------- #
+pip install --break-system-packages jupyterlab
+
+# ---------- #
+# App Center #
+# ---------- #
+
+# Emacs
+
+# ------------------ #
+# Manually installed #
+# ------------------ #
+
+# Not installation command but we list the name here
+# Usually a file must be downloaded and manually installed
+
+# Visual Studio Code
+# Rstudio
+# Omnissa Horizon Client
+# mendeley

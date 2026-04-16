@@ -1,0 +1,41 @@
+# ------------------ #
+# Manually installed #
+# ------------------ #
+brave
+oh-my-zsh
+uv
+apptainer
+
+
+# -------------------- #
+# Install through file #
+# -------------------- #
+VS Code
+Rstudio
+omnissa
+mendeley
+
+
+
+# ---------- #
+# App Center #
+# ---------- #
+Emacs
+
+
+# ----------------- #
+# apt get installed #
+# ----------------- #
+curl
+git
+zsh
+r-base
+wget
+software-properties-common
+python3-pip
+
+
+# --------------- #
+# python packages #
+# --------------- #
+jupyterlab
