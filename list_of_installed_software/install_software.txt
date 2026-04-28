@@ -9,9 +9,10 @@ sudo apt install -y curl       \
     software-properties-common \
     python3-pip                \
     libfuse2                   \
-    libuv1-dev
+    libuv1-dev                 \
+    libreoffice
 
-# sudo apt install libfuse2
+# sudo apt install libreoffice
 
 
 
@@ -57,3 +58,4 @@ pip install --break-system-packages jupyterlab
 # Rstudio
 # Omnissa Horizon Client
 # mendeley
+# zoom
