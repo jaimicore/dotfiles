@@ -10,9 +10,10 @@ sudo apt install -y curl       \
     python3-pip                \
     libfuse2                   \
     libuv1-dev                 \
-    libreoffice
+    libreoffice                \
+    pandoc
 
-# sudo apt install libreoffice
+# sudo apt install pandoc
 
 
 

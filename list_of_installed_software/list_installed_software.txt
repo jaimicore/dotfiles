@@ -35,6 +35,8 @@ wget
 software-properties-common
 python3-pip
 libuv1-dev
+libreoffice
+pandoc
 
 
 # --------------- #
