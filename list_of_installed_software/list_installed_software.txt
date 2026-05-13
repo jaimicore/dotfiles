@@ -5,6 +5,7 @@ brave
 oh-my-zsh
 uv
 apptainer
+docker
 
 
 # -------------------- #
