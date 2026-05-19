@@ -11,9 +11,17 @@ sudo apt install -y curl       \
     libfuse2                   \
     libuv1-dev                 \
     libreoffice                \
-    pandoc
+    pandoc                     \
+    libxml2-dev                \
+    libcurl4-openssl-dev       \
+    libfontconfig1-dev         \
+    libharfbuzz-dev            \
+    libfribidi-dev             \
+    texlive-xetex              \
+    fonts-font-awesome         \
+    texlive-fonts-extra
 
-# sudo apt install pandoc
+# sudo apt install fonts-font-awesome
 
 
 # -------------- #
