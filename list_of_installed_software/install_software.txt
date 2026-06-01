@@ -19,10 +19,10 @@ sudo apt install -y curl       \
     libfribidi-dev             \
     texlive-xetex              \
     fonts-font-awesome         \
-    texlive-fonts-extra
+    texlive-fonts-extra        \
+    imagemagick
 
-# sudo apt install fonts-font-awesome
-
+# sudo apt install imagemagick
 
 # -------------- #
 # Install Docker #
@@ -79,6 +79,7 @@ pip install --break-system-packages jupyterlab
 # ---------- #
 
 # Emacs
+# inkscape
 
 # ------------------ #
 # Manually installed #

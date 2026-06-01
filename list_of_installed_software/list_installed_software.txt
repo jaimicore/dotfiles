@@ -23,6 +23,7 @@ zoom
 # App Center #
 # ---------- #
 Emacs
+inkscape
 
 
 # ----------------- #
