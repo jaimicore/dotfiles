@@ -24,6 +24,7 @@ zoom
 # ---------- #
 Emacs
 inkscape
+PDF Arranger
 
 
 # ----------------- #

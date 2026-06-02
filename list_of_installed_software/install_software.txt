@@ -80,6 +80,7 @@ pip install --break-system-packages jupyterlab
 
 # Emacs
 # inkscape
+# PDF Arranger
 
 # ------------------ #
 # Manually installed #
